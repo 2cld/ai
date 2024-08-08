@@ -2,6 +2,11 @@
 
 # ai/docs
 
+### works on local
+- [local web only http://localhost:8080/](http://localhost:8080/)
+- [local web only http://localhost:11434/](http://localhost:11434/)
+
+## not working need wsl route to local wsl / docker
 - [local web only http://192.168.6.30:8080/](http://192.168.6.30:8080/)
 - [local web only http://192.168.6.30:11434/](http://192.168.6.30:11434/)
 
