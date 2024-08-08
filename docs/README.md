@@ -54,3 +54,19 @@ ghadmin@Cybertruck:~$ sudo docker run -d --network=host -v open-webui:/app/backe
 ```
 ghadmin@Cybertruck:~$ sudo docker ps
 ```
+
+### External Access
+- https://stackoverflow.com/questions/64513964/wsl-2-which-ports-are-automatically-forwarded
+- portforward 8080 to 8080 wsl docker
+```
+PS C:\WINDOWS\system32> netsh interface portproxy show all
+PS C:\WINDOWS\system32> netsh interface portproxy show v4tov4
+PS C:\WINDOWS\system32> netsh interface portproxy set v4tov4 listenport=8080 listenaddress=0.0.0.0 connectport=8080 connectaddress=$(wsl hostname -I)
+PS C:\WINDOWS\system32> netsh interface portproxy show v4tov4
+Listen on ipv4:             Connect to ipv4:
+
+Address         Port        Address         Port
+--------------- ----------  --------------- ----------
+0.0.0.0         8080        172.25.17.150 172.17.0.1  8080
+```
+- tbd
