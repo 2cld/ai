@@ -3,8 +3,19 @@
 # ai/docs
 
 ### works on local
-- [local web only http://localhost:8080/](http://localhost:8080/)
-- [local web only http://localhost:11434/](http://localhost:11434/)
+- [local web only http://localhost:11434/](http://localhost:11434/) - olama must be running under wsl
+```
+ghadmin@Cybertruck:/mnt/c/WINDOWS/system32$ pgrep ollama
+232
+ghadmin@Cybertruck:/mnt/c/WINDOWS/system32$
+```
+- [local web only http://localhost:8080/](http://localhost:8080/) - docker open-webui must be running under wsl
+```
+ghadmin@Cybertruck:/mnt/c/WINDOWS/system32$ sudo docker ps
+[sudo] password for ghadmin:
+CONTAINER ID   IMAGE                                COMMAND           CREATED      STATUS                   PORTS     NAMES
+0a3f081ea4f6   ghcr.io/open-webui/open-webui:main   "bash start.sh"   2 days ago   Up 2 minutes (healthy)             open-webui
+```
 
 ## not working need wsl route to local wsl / docker
 - [local web only http://192.168.6.30:8080/](http://192.168.6.30:8080/)
@@ -36,6 +47,12 @@ ghadmin@Cybertruck:~$ curl -fsSL https://ollama.com/install.sh | sh
 ```
 ghadmin@Cybertruck:~$ ollama pull llama2
 ```
+- monitor nvidia gpu
+```
+ghadmin@Cybertruck:~$ watch -n 0.5 nvidia-smi
+```
+## open-webui
+- intall docker open-webui
 - keyring for packages
 ```
 ghadmin@Cybertruck:~$ sudo apt-get update
