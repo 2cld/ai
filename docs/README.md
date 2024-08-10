@@ -1,7 +1,10 @@
 [edit]()
 
 # ai/docs
-
+## working need wsl route to local wsl / docker
+- [local web only http://192.168.6.30:8080/](http://192.168.6.30:8080/)
+- [local web only http://192.168.6.30:11434/](http://192.168.6.30:11434/)
+  
 ### works on local
 - [local web only http://localhost:11434/](http://localhost:11434/) - olama must be running under wsl
 ```
@@ -20,10 +23,6 @@ CONTAINER ID   IMAGE                                COMMAND           CREATED   
 ```
 ghadmin@Cybertruck:/mnt/c/WINDOWS/system32$ watch -n 0.5 nvidia-smi
 ```
-
-## not working need wsl route to local wsl / docker
-- [local web only http://192.168.6.30:8080/](http://192.168.6.30:8080/)
-- [local web only http://192.168.6.30:11434/](http://192.168.6.30:11434/)
 
 ## Install Reference
 - [Networkchuck - host ALL your AI locally](https://academy.networkchuck.com/products/youtube-videos/categories/2155282450/posts/2177513911)
@@ -57,6 +56,7 @@ ghadmin@Cybertruck:~$ ollama pull llama2
 ghadmin@Cybertruck:~$ watch -n 0.5 nvidia-smi
 ```
 ## open-webui
+- https://docs.openwebui.com/tutorial-development/
 - intall docker open-webui
 - keyring for packages
 ```
@@ -88,12 +88,48 @@ ghadmin@Cybertruck:~$ sudo docker ps
 ```
 PS C:\WINDOWS\system32> netsh interface portproxy show all
 PS C:\WINDOWS\system32> netsh interface portproxy show v4tov4
-PS C:\WINDOWS\system32> netsh interface portproxy set v4tov4 listenport=8080 listenaddress=0.0.0.0 connectport=8080 connectaddress=$(wsl hostname -I)
-PS C:\WINDOWS\system32> netsh interface portproxy show v4tov4
+PS C:\WINDOWS\system32> netsh interface portproxy show all
+PS C:\WINDOWS\system32> netsh interface portproxy add v4tov4 listenport=11434 listenaddress=192.168.6.30 connectport=11434 connectaddress=127.0.0.1
+
 Listen on ipv4:             Connect to ipv4:
 
 Address         Port        Address         Port
 --------------- ----------  --------------- ----------
-0.0.0.0         8080        172.25.17.150 172.17.0.1  8080
+193.168.6.30    11434       127.0.0.1       11434
+
+
+PS C:\WINDOWS\system32> netsh interface portproxy add v4tov4 listenport=11434 listenaddress=192.168.6.30 connectport=8080 connectaddress=127.0.0.1
+
+PS C:\WINDOWS\system32> netsh interface portproxy show all
+
+Listen on ipv4:             Connect to ipv4:
+
+Address         Port        Address         Port
+--------------- ----------  --------------- ----------
+192.168.6.30    11434       127.0.0.1       8080
+
+PS C:\WINDOWS\system32> netsh interface portproxy add v4tov4 listenport=8080 listenaddress=192.168.6.30 connectport=8080 connectaddress=127.0.0.1
+
+PS C:\WINDOWS\system32> netsh interface portproxy show all
+
+Listen on ipv4:             Connect to ipv4:
+
+Address         Port        Address         Port
+--------------- ----------  --------------- ----------
+192.168.6.30    11434       127.0.0.1       8080
+192.168.6.30    8080        127.0.0.1       8080
+
+PS C:\WINDOWS\system32> netsh interface portproxy add v4tov4 listenport=11434 listenaddress=192.168.6.30 connectport=11434 connectaddress=127.0.0.1
+
+PS C:\WINDOWS\system32> netsh interface portproxy show all
+
+Listen on ipv4:             Connect to ipv4:
+
+Address         Port        Address         Port
+--------------- ----------  --------------- ----------
+192.168.6.30    11434       127.0.0.1       11434
+192.168.6.30    8080        127.0.0.1       8080
+
+PS C:\WINDOWS\system32>
 ```
 - tbd
