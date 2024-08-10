@@ -16,6 +16,10 @@ ghadmin@Cybertruck:/mnt/c/WINDOWS/system32$ sudo docker ps
 CONTAINER ID   IMAGE                                COMMAND           CREATED      STATUS                   PORTS     NAMES
 0a3f081ea4f6   ghcr.io/open-webui/open-webui:main   "bash start.sh"   2 days ago   Up 2 minutes (healthy)             open-webui
 ```
+- monitor nvidia GPU
+```
+ghadmin@Cybertruck:/mnt/c/WINDOWS/system32$ watch -n 0.5 nvidia-smi
+```
 
 ## not working need wsl route to local wsl / docker
 - [local web only http://192.168.6.30:8080/](http://192.168.6.30:8080/)
