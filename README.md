@@ -2,7 +2,9 @@
 2cld ai notes
 
 - open-webui localonly [http://192.168.6.30:8080/](http://192.168.6.30:8080/)
+
 ---
+
 | doc | link |
 |-----|------|
 | WebUI	/api/v1/docs | [http://192.168.6.30:8080/api/v1/docs](http://192.168.6.30:8080/api/v1/docs) |
