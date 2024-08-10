@@ -27,6 +27,7 @@ ghadmin@Cybertruck:/mnt/c/WINDOWS/system32$ watch -n 0.5 nvidia-smi
 
 ## Install Reference
 - [Networkchuck - host ALL your AI locally](https://academy.networkchuck.com/products/youtube-videos/categories/2155282450/posts/2177513911)
+- ollama FAQ [https://github.com/ollama/ollama/blob/main/docs/faq.md](https://github.com/ollama/ollama/blob/main/docs/faq.md)
 - install wsl Ubuntu-22.04 [wsl install help](https://learn.microsoft.com/en-us/windows/wsl/install)
 ```
  wsl --install
