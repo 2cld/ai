@@ -1,6 +1,9 @@
-[edit]()
+[edit](https://github.com/2cld/ai/edit/main/docs/README.md)
 
 # ai/docs
+## working external through cloudflare [https://netstack.org/docs/wan/cloudflare/](https://netstack.org/docs/wan/cloudflare/)
+- [https://chat.bradnordyke.com](https://chat.bradnordyke.com)
+  
 ## working need wsl route to local wsl / docker
 - [local web only http://192.168.6.30:8080/](http://192.168.6.30:8080/)
 - [local web only http://192.168.6.30:11434/](http://192.168.6.30:11434/)
@@ -23,6 +26,8 @@ CONTAINER ID   IMAGE                                COMMAND           CREATED   
 ```
 ghadmin@Cybertruck:/mnt/c/WINDOWS/system32$ watch -n 0.5 nvidia-smi
 ```
+## Restart Refernce
+ghadmin@Cybertruck:/mnt/c/WINDOWS/system32$ watch -n 0.5 nvidia-smi
 
 ## Install Reference
 - [Networkchuck - host ALL your AI locally](https://academy.networkchuck.com/products/youtube-videos/categories/2155282450/posts/2177513911)
@@ -133,3 +138,9 @@ Address         Port        Address         Port
 PS C:\WINDOWS\system32>
 ```
 - tbd
+
+### casaos on wsl install
+- ghadmin@Cybertruck:/mnt/c/Users/ghadmin/casaos$ curl -fsSL get.casaos.io/install.sh | sudo bash
+- ghadmin@Cybertruck:/mnt/c/Users/ghadmin/casaos$ sudo ufw allow 8080
+- PS C:\WINDOWS\system32> netsh interface portproxy add v4tov4 listenport=20200 listenaddress=192.168.6.30 connectport=80 connectaddress=172.25.17.150
+- PS C:\WINDOWS\system32> netsh interface portproxy show all
