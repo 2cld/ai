@@ -29,6 +29,19 @@ ghadmin@Cybertruck:/mnt/c/WINDOWS/system32$ watch -n 0.5 nvidia-smi
 ## Restart Refernce
 ghadmin@Cybertruck:/mnt/c/WINDOWS/system32$ watch -n 0.5 nvidia-smi
 
+- You might want to
+```
+sudo docker rm -f ollama-webui
+```
+- repull
+```
+sudo docker pull ghcr.io/ollama-webui/ollama-webui:main
+```
+- Then run
+```
+sudo docker run -d -p 8080:8080 --add-host=host.docker.internal:host-gateway -v ollama-webui:/app/backend/data --name ollama-webui --restart always ghcr.io/ollama-webui/ollama-webui:main
+```
+
 ## Install Reference
 - [Networkchuck - host ALL your AI locally](https://academy.networkchuck.com/products/youtube-videos/categories/2155282450/posts/2177513911)
 - ollama FAQ [https://github.com/ollama/ollama/blob/main/docs/faq.md](https://github.com/ollama/ollama/blob/main/docs/faq.md)
