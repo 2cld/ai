@@ -27,9 +27,15 @@ CONTAINER ID   IMAGE                                COMMAND           CREATED   
 ghadmin@Cybertruck:/mnt/c/WINDOWS/system32$ watch -n 0.5 nvidia-smi
 ```
 ## Restart Refernce
+- nvidia monitor
+```
 ghadmin@Cybertruck:/mnt/c/WINDOWS/system32$ watch -n 0.5 nvidia-smi
-
-- You might want to
+```
+- How to tell if model is in gpu [faq link](https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-tell-if-my-model-was-loaded-onto-the-gpu)
+- where ollama keeps data [youtube](https://youtu.be/6bF1uCHTFyk) and [issue](https://github.com/ollama/ollama/issues/1836)
+  - windows C:\Users*****\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu_79*****gsc\LocalState\ext4.vhdx
+  - linux \wsl.localhost\Ubuntu\usr\share\ollama.ollama\models
+- You might want to [from this issue](https://github.com/ollama/ollama/issues/6301)
 ```
 sudo docker rm -f ollama-webui
 ```
@@ -41,7 +47,13 @@ sudo docker pull ghcr.io/ollama-webui/ollama-webui:main
 ```
 sudo docker run -d -p 8080:8080 --add-host=host.docker.internal:host-gateway -v ollama-webui:/app/backend/data --name ollama-webui --restart always ghcr.io/ollama-webui/ollama-webui:main
 ```
-
+- network issues in wsl 
+  - https://stackoverflow.com/questions/61002681/connecting-to-wsl2-server-via-local-network
+  - https://docs.docker.com/guides/workshop/02_our_app/#:~:text=Start%20an%20app%20container%201%20Run%20your%20container,mark%20items%20as%20complete%20and%20remove%20them.%20
+  - https://docs.openwebui.com/getting-started/
+  - https://docs.docker.com/language/golang/run-containers/
+  - https://github.com/open-webui/open-webui/discussions/743
+  - https://github.com/open-webui/open-webui/discussions/770
 ## Install Reference
 - [Networkchuck - host ALL your AI locally](https://academy.networkchuck.com/products/youtube-videos/categories/2155282450/posts/2177513911)
 - ollama FAQ [https://github.com/ollama/ollama/blob/main/docs/faq.md](https://github.com/ollama/ollama/blob/main/docs/faq.md)
