@@ -31,6 +31,17 @@ ghadmin@Cybertruck:/mnt/c/WINDOWS/system32$ watch -n 0.5 nvidia-smi
 ```
 ghadmin@Cybertruck:/mnt/c/WINDOWS/system32$ watch -n 0.5 nvidia-smi
 ```
+- restart existing image
+```
+ghadmin@Cybertruck:/mnt/c/Users/ghadmin$ sudo docker run -d --network=host  -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 40
+86dd959bc608fe5a17aa2b6cfeb52232e9c4cfdab1cffff12ff75a664a89fb0f
+ghadmin@Cybertruck:/mnt/c/Users/ghadmin$ sudo docker image list
+REPOSITORY                      TAG       IMAGE ID       CREATED      SIZE
+ghcr.io/open-webui/open-webui   main      40b61f294e78   8 days ago   3.89GB
+ghadmin@Cybertruck:/mnt/c/Users/ghadmin$
+```
+
+### update ref
 - How to tell if model is in gpu [faq link](https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-tell-if-my-model-was-loaded-onto-the-gpu)
 - where ollama keeps data [youtube](https://youtu.be/6bF1uCHTFyk) and [issue](https://github.com/ollama/ollama/issues/1836)
   - windows C:\Users*****\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu_79*****gsc\LocalState\ext4.vhdx
