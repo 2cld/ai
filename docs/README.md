@@ -2,7 +2,9 @@
 
 # ai/docs
 ## working external through cloudflare [https://netstack.org/docs/wan/cloudflare/](https://netstack.org/docs/wan/cloudflare/)
-- [https://chat.bradnordyke.com](https://chat.bradnordyke.com)
+- [https://chat.bradnordyke.com](https://chat.bradnordyke.com) - ollama open-webui
+- [https://home.bradnordyke.com](https://home.bradnordyke.com) - homer
+- [https://casa.bradnordyke.com](https://casa.bradnordyke.com) - casaos
   
 ## working need wsl route to local wsl / docker
 - [local web only http://192.168.6.30:8080/](http://192.168.6.30:8080/)
