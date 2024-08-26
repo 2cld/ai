@@ -1,6 +1,14 @@
 [edit](https://github.com/2cld/ai/edit/main/docs/README.md)
 
 # ai/docs
+- [nginx-truenas.md](./nginx-truenas)
+- [nodejs-test.md](./nodejs-test)
+- [open-webui-install.md](./open-webui-install)
+
+## wip
+- https://github.com/run-llama/llama_parse
+- 
+
 ## working external through cloudflare [https://netstack.org/docs/wan/cloudflare/](https://netstack.org/docs/wan/cloudflare/)
 - [https://chat.bradnordyke.com](https://chat.bradnordyke.com) - ollama open-webui
 - [https://home.bradnordyke.com](https://home.bradnordyke.com) - homer
@@ -9,7 +17,22 @@
 ## working need wsl route to local wsl / docker
 - [local web only http://192.168.6.30:8080/](http://192.168.6.30:8080/)
 - [local web only http://192.168.6.30:11434/](http://192.168.6.30:11434/)
-  
+- powershell PS C:\WINDOWS\system32> netsh interface portproxy show all
+```
+Listen on ipv4:             Connect to ipv4:
+
+Address         Port        Address         Port
+--------------- ----------  --------------- ----------
+192.168.6.30    8080        172.25.17.150   8080
+192.168.6.30    20200       172.25.17.150   80
+192.168.6.30    8090        172.25.17.150   8090
+192.168.6.30    11434       127.0.0.1       11434
+```
+
+## local wsl / docker
+- [local web only http://172.25.17.150:8080/](http://172.25.17.150:8080/)
+- [local web only http://172.25.17.150:11434/](http://172.25.17.150:11434/)
+
 ### works on local
 - [local web only http://localhost:11434/](http://localhost:11434/) - olama must be running under wsl
 ```
