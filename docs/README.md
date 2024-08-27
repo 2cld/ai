@@ -11,6 +11,7 @@
 - https://docs.openwebui.com/features/
 - https://github.com/ollama/ollama/blob/main/docs/faq.md#setting-environment-variables-on-linux
 - https://github.com/ollama/ollama/blob/main/docs/faq.md#why-is-networking-slow-in-wsl2-on-windows-10
+- ollama config in wsl https://github.com/ollama/ollama/issues/1431
 
 ## working external through cloudflare [https://netstack.org/docs/wan/cloudflare/](https://netstack.org/docs/wan/cloudflare/)
 - [https://chat.bradnordyke.com](https://chat.bradnordyke.com) - ollama open-webui
