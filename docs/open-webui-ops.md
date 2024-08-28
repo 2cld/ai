@@ -31,6 +31,24 @@ debug open webui
 - [http://192.168.6.30:11434/](http://192.168.6.30:11434/) works on Cybertruck
 
 
+## logs
+- [cfCyberTruck_PS_ConsoleHost_history.txt](./cfCyberTruck_PS_ConsoleHost_history.txt)
+- [cfCyberTruck_wsl_ConsoleHost_history.txt](./cfCyberTruck_wsl_ConsoleHost_history.txt)
+- [PowerShell History commands](https://stackoverflow.com/questions/44104043/how-can-i-see-the-command-history-across-all-powershell-sessions-in-windows-serv)
+- [forwarding ports in WSL2 NAT](https://aalonso.dev/blog/2021/accessing-network-apps-running-inside-wsl2-from-other-devices-in-your-lan-1e1p)
+- powershell
+  ```powershell
+  netsh interface portproxy add v4tov4 listenport=3000 listenaddress=0.0.0.0 connectport=3000 connectaddress=<the_wsl_ip>
+  ```
+- [Microsoft tcpview](https://learn.microsoft.com/en-us/sysinternals/downloads/tcpview)
+- [Microsoft Find process listening on port in windows](https://woshub.com/which-program-listening-port-windows/#:~:text=You%20can%20use%20a%20PowerShell%20one-line%20command%20to,2%20UDP%20port%3A%20Get-Process%20-Id%20%28Get-NetUDPEndpoint%20-LocalPort%2053%29.OwningProcess)
+- You can use a PowerShell one-line command to instantly get the name of the process listening on a specific port:
+```
+TCP port: Get-Process -Id (Get-NetTCPConnection -LocalPort 80).OwningProcess
+UDP port: Get-Process -Id (Get-NetUDPEndpoint -LocalPort 53).OwningProcess
+```
+- [netsh-port-forwarding-from-local-port-to-local-port-not-working](https://stackoverflow.com/questions/24646165/netsh-port-forwarding-from-local-port-to-local-port-not-working)
+
 ---
 ## weblogs
 A container's logs can be found in : /var/lib/docker/containers/<container id>/<container id>-json.log (if you use the default log format which is json)
