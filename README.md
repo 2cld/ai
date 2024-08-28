@@ -17,9 +17,12 @@
 ---
 - ollama server status localonly [http://192.168.6.30:11434/](http://192.168.6.30:11434/)
 
-### notes
+### index
 - [docs](./docs/)
+- [docs/nginx-truenas](./docs/nginx-truenas/)
 - [docs/nodejs-test](./docs/nodejs-test/)
+- [docs/open-webui-install](./docs/open-webui-install/)
+- [docs/open-webui-ops](./docs/open-webui-ops/)
 
 ---
 
