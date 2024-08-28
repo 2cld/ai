@@ -1,0 +1,323 @@
+    1  exit
+    2  cd ~
+    3  cat /etc/*versions
+    4  cat /etc/*version
+    5  cat /etc/*release
+    6  sudo apt update
+    7  sudo apt upgrade -y
+    8  curl -fsSL https://ollama.com/install.sh | sh
+    9  ollama pull llama2
+   10  ollama run llama2
+   11  # Add Docker's official GPG key:
+   12  sudo apt-get update
+   13  echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+   14  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   15  sudo apt-get update
+   16  sudo apt-get install ca-certificates curl
+   17  sudo install -m 0755 -d /etc/apt/keyrings
+   18  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+   19  sudo chmod a+r /etc/apt/keyrings/docker.asc
+   20  echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+   21  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   22  sudo apt-get update
+   23  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+   24  docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+   25  docker --status
+   26  docker ps
+   27  sudo docker ps
+   28  sudo docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+   29  ip a
+   30  docker container ls
+   31  suso docker container ls
+   32  sudo docker container ls
+   33  docker stop open-webui
+   34  sudo docker stop open-webui
+   35  sudo docker container ls
+   36  exit
+   37  cd ~
+   38  sudo docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+   39  sudo docker ps
+   40  sudo docker ls
+   41  sudo docker --help
+   42  docker images
+   43  sudo docker images
+   44  sudo docker run 40
+   45  ollama
+   46  ollama serve
+   47  ollama show
+   48  ollama ps
+   49  ollama list
+   50  ollama run llama2
+   51  exit
+   52  docker ps
+   53  sudo docker run 40
+   54  ollama list
+   55  sudo docker images
+   56  sudo docker run 40
+   57  echo $OLLAMA_API_BASE_URL 
+   58  echo OLLAMA_API_BASE_URL 
+   59  echo "$OLLAMA_API_BASE_URL"
+   60  var
+   61  env
+   62  ollama
+   63  ollama ps
+   64  ollama list
+   65  ollama serve
+   66  ollama run llama2
+   67  watch -n 0.5 nvidia-smi
+   68  ollama
+   69  ollama list
+   70  ollama ps
+   71  pgrep ollama
+   72  kill 229
+   73  sudo kill 229
+   74  pgrep ollama
+   75  ollama ps
+   76  sudo kill 851
+   77  ollama ps
+   78  pgrep ollama
+   79  docker ps
+   80  sudo docker ps
+   81  docker
+   82  docker ps
+   83  sudo docker ps
+   84  cd ~
+   85  exit
+   86  docker ps
+   87  sudo docker ps
+   88  pgrep ollama
+   89  netsh interface portproxy add v4tov4 listenport=11434 listenaddress=0.0.0.0 connectport=11434 connectaddress=IP_ADDRESS_HERE
+   90  netsh interface portproxy add v4tov4 listenport=11434 listenaddress=0.0.0.0 connectport=11434 connectaddress=172.25.17.150
+   91  ufw allow 8080
+   92  sudo ufw allow 8080
+   93  sudo ufw allow 11434
+   94  npm -v
+   95  exit
+   96  watch -n 0.5 nvidia-smi
+   97  exit
+   98  pwd
+   99  ls
+  100  mkdir casaos
+  101  cd casaos/
+  102  curl -fsSL get.casaos.io/install.sh | sudo bash
+  103  sudo docker ps
+  104  ip a
+  105  exit
+  106  pgrep ollama
+  107  watch -n 0.5 nvidia-smi
+  108  ollama list
+  109  ollama --help
+  110  ollama pull ollama3_5
+  111  ollama pull ollama3.5
+  112  ollama pull ollama3
+  113  ollama pull llama3_5
+  114  ollama pull llama3.5
+  115  ollama pull --help
+  116  ollama run llama3.1:8b
+  117  watch -n 0.5 nvidia-smi
+  118  ollama run codellama
+  119  ip a
+  120  cat /etc/wsl.conf 
+  121  npm -v
+  122  ping 172.25.17.150
+  123  netsh interface portproxy show all
+  124  netstat -help
+  125  docker ps
+  126  sudo docker ps
+  127  sudo apt install net-tools
+  128  netstat -npl|grep 11434
+  129  systemctl edit ollama.service
+  130  sudo systemctl edit ollama.service
+  131  sudo docker ps
+  132  sudo systemctl edit ollama.service
+  133  exit
+  134  cd /DATA/AppData/big-bear-guacamole/mysql
+  135  ls -alu
+  136  docker run --rm guacamole/guacamole /opt/guacamole/bin/initdb.sh --mysql > initdb.sql
+  137  sudo docker run --rm guacamole/guacamole /opt/guacamole/bin/initdb.sh --mysql > initdb.sql
+  138  pwd
+  139  sudo docker ps
+  140  sudo docker ps
+  141  sudo ufw allow 11434
+  142  ip a
+  143  sudo docker exec -it open-webui /bin/bash
+  144  sudo docker ps
+  145  sudo docker stop open-webui
+  146  sudo docker ps
+  147  sudo docker list
+  148  sudo docker ==help
+  149  sudo docker --help
+  150  sudo docker images
+  151  ip addr
+  152  sudo docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+  153  docker image
+  154  docker image ls
+  155  sudo docker image ls
+  156  sudo docker run -dp 127.0.0.1:8080:8080 open-webui
+  157  sudo docker run -dp 127.0.0.1:8080:8080 40
+  158  sudo docker ps
+  159  ip addr
+  160  sudo docker stop 86
+  161  sudo docker ps
+  162  sudo docker run -dp 172.25.17.150:8080:8080 40
+  163  sudo docker ps
+  164  sudo docker stop 43
+  165  sudo docker ps
+  166  sudo docker run  40
+  167  sudo docker run  -dp localhost:8080 40
+  168  sudo docker run  -dp 8080:8080 40
+  169  sudo docker ps
+  170  ls
+  171  ls /usr/share/ollama/.ollama/models/
+  172  ls /usr/share/ollama/.ollama/models/blobs/
+  173  ls /usr/share/ollama/.ollama/models/manifests/
+  174  ls /usr/share/ollama/.ollama/models/blobs/ -alu
+  175  ollama -v
+  176  ollama list
+  177  ollama run llama3.1
+  178  sudo docker -version
+  179  sudo docker -v
+  180  history
+  181  docker info
+  182  sudo docker info
+  183  docker -help
+  184  docker run -help
+  185  sudo docker port
+  186  sudo docker image
+  187  sudo docker image ls
+  188  pwd
+  189  cd /mnt/c/Video/
+  190  ls
+  191  sudo docker volume ls
+  192  sudo docker ps
+  193  ls /usr/bin/ollama
+  194  cat /etc/systemd/system/ollama.service 
+  195  sudo systemctl start ollama
+  196  cat ~/.ollama/logs/server.log
+  197  journalctl -u ollama --no-pager
+  198  ollama serve
+  199  ollama ps
+  200  systemctl edit ollama.service 
+  201  sudo systemctl edit ollama.service 
+  202  systemctl daemon-reload
+  203  sudo systemctl daemon-reload
+  204  sudo systemctl restart ollama
+  205  ollama ps
+  206  ls /usr/share/ollama/
+  207  sudo docker ps
+  208  sudo docker stop 1e
+  209  sudo docker ps
+  210  sudo docker run -d --network=host  -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434
+  211  sudo docker run -d --network=host  -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 40
+  212  sudo docker image list
+  213  docker ps
+  214  sudo docker ps
+  215  ip addr
+  216  sudo ufw allow 8090
+  217  sudo ufw allow 3306
+  218  sudo ufw allow 33060
+  219  sudo ufw allow 4822
+  220  sudo docker ps
+  221  sudo ufw allow 22
+  222  cat /etc/wsl.conf 
+  223  systemctl status sshd
+  224  netstat
+  225  sudo apt remove openssh-server
+  226  sudo apt install openssh-server
+  227  sudo vi /etc/ssh/sshd_config
+  228  sudo service ssh restart
+  229  systemctl status sshd
+  230  sudo docker ps
+  231  sudo docker images show
+  232  exit
+  233  ip a
+  234  cat /etc/*release
+  235  sudo docker ps
+  236  sudo docker images
+  237  pgrep ollama
+  238  netstat
+  239  ip a
+  240  docker ps
+  241  ls
+  242  cd casaos/
+  243  ls
+  244  ls -alu
+  245  docker ps
+  246  docker images
+  247  docker info
+  248  pgrep ollama
+  249  cat /etc/*release
+  250  sudo docker images show
+  251  exit
+  252  cat /etc/*release
+  253  docker ps
+  254  exit
+  255  docker ps
+  256  cat /etc/*release
+  257  exit
+  258  apt list --installed | grep 'docker'
+  259  snap list
+  260  docker ps
+  261  docker-compose --help
+  262  snap
+  263  docker ps
+  264  docker volume --list
+  265  docker volume ls
+  266  docker volume create portainter_data
+  267  docker volume ls
+  268  docker ps
+  269  docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+  270  docker ps
+  271  docker ps -q
+  272  sudo ufw status numbered
+  273  sudo ufw status verbose
+  274  exit
+  275  docker ps
+  276  sudo ufw status
+  277  sudo ufw allow 8080
+  278  sudo ufw status
+  279  ip a
+  280  docker ps
+  281  netstat
+  282  cat /etc/wsl.conf 
+  283  sudo systemctl edit ollama.service
+  284  cd /var/lib/docker/
+  285  sudo ls /var/lib/docker/
+  286  sudo cd /var/lib/docker/containers
+  287  sudo ls /var/lib/docker/containers\
+  288  sudo ls /var/lib/docker/images
+  289  sudo ls /var/lib/docker/image
+  290  sudo ls /var/lib/docker/volumes
+  291  sudo ls /var/lib/docker/volumes/open-webui
+  292  sudo ls /var/lib/docker/volumes/open-webui/_data
+  293  ls -alu
+  294  ls .ollama/
+  295  sudo ls /var/lib/docker/
+  296  sudo ls /var/lib/docker/containers
+  297  sudo ls /var/lib/docker/volumes
+  298  sudo ls /var/lib/docker/volumes/open-webui
+  299  sudo ls /var/lib/docker/volumes/open-webui/_data
+  300  sudo ls /var/lib/docker/volumes/open-webui/_data/vector_db
+  301  docker image
+  302  docker image ls
+  303  docker ps
+  304  sudo ls /var/lib/docker/containers
+  305  sudo tail /var/lib/docker/containers/0a3f081ea4f65bf0504f2b0be862811bf74ab3a5fbcb42ea6456afccf90c793c/0a3f081ea4f65bf0504f2b0be862811bf74ab3a5fbcb42ea6456afccf90c793c-json.log
+  306  sudo grep "400" /var/lib/docker/containers/0a3f081ea4f65bf0504f2b0be862811bf74ab3a5fbcb42ea6456afccf90c793c/0a3f081ea4f65bf0504f2b0be862811bf74ab3a5fbcb42ea6456afccf90c793c-json.log
+  307  sudo grep " 500 " /var/lib/docker/containers/0a3f081ea4f65bf0504f2b0be862811bf74ab3a5fbcb42ea6456afccf90c793c/0a3f081ea4f65bf0504f2b0be862811bf74ab3a5fbcb42ea6456afccf90c793c-json.log
+  308  sudo grep " /api/config " /var/lib/docker/containers/0a3f081ea4f65bf0504f2b0be862811bf74ab3a5fbcb42ea6456afccf90c793c/0a3f081ea4f65bf0504f2b0be862811bf74ab3a5fbcb42ea6456afccf90c793c-json.log
+  309  sudo tail /var/lib/docker/containers/0a3f081ea4f65bf0504f2b0be862811bf74ab3a5fbcb42ea6456afccf90c793c/0a3f081ea4f65bf0504f2b0be862811bf74ab3a5fbcb42ea6456afccf90c793c-json.log
+  310  sudo grep " 192.168.6.30 " /var/lib/docker/containers/0a3f081ea4f65bf0504f2b0be862811bf74ab3a5fbcb42ea6456afccf90c793c/0a3f081ea4f65bf0504f2b0be862811bf74ab3a5fbcb42ea6456afccf90c793c-json.log
+  311  sudo grep " 172.25.17.150 " /var/lib/docker/containers/0a3f081ea4f65bf0504f2b0be862811bf74ab3a5fbcb42ea6456afccf90c793c/0a3f081ea4f65bf0504f2b0be862811bf74ab3a5fbcb42ea6456afccf90c793c-json.log
+  312  sudo tail 50 /var/lib/docker/containers/0a3f081ea4f65bf0504f2b0be862811bf74ab3a5fbcb42ea6456afccf90c793c/0a3f081ea4f65bf0504f2b0be862811bf74ab3a5fbcb42ea6456afccf90c793c-json.log
+  313  sudo ls /var/lib/docker/
+  314  sudo ls /var/lib/docker/volumes
+  315  docker ps
+  316  ip a
+  317  exit
+  318  docker ps
+  319  ip a
+  320  history
+  321  pwd ~
+  322  pwd ~./
+  323  history > /mnt/c/Users/ghadmin/Documents/cfCyberTruck_wsl_history.txt

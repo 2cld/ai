@@ -1,0 +1,256 @@
+ollama run llama2
+netsh interface portproxy list
+netsh interface portproxy
+netsh interface portproxy show
+netsh interface portproxy show all
+netsh interface portproxy show v4tov4
+netsh interface portproxy set v4tov4 listenport=8080 listenaddress=0.0.0.0 connectport=8080 connectaddress=$(wsl hostname -I)
+netsh interface portproxy show v4tov4
+ipconfig
+netsh interface portproxy add v4tov4 listenport=11434 listenaddress=0.0.0.0 connectport=11434 connectaddress=172.25.17.150
+netsh interface portproxy add v4tov4 listenport=8080 listenaddress=0.0.0.0 connectport=11434 connectaddress=172.25.17.150
+# installs fnm (Fast Node Manager)
+winget install Schniz.fnm
+# configure fnm environment
+fnm env --use-on-cd | Out-String | Invoke-Expression
+# download and install Node.js
+fnm use --install-if-missing 20
+# verifies the right Node.js version is in the environment
+node -v # should print `v20.16.0`
+# verifies the right npm version is in the environment
+npm -v # should print `10.8.1`
+exit
+# installs fnm (Fast Node Manager)
+winget install Schniz.fnm
+# configure fnm environment
+fnm env --use-on-cd | Out-String | Invoke-Expression
+# download and install Node.js
+fnm use --install-if-missing 20
+# verifies the right Node.js version is in the environment
+node -v # should print `v20.16.0`
+# verifies the right npm version is in the environment
+npm -v # should print `10.8.1`
+npm install -g express-generator
+express myapp --view="pug"
+pwsh.exe -ExecutionPolicy AllSigned
+Get-ExecutionPolicy -Scope CurrentUser
+Get-ExecutionPolicy -List
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+cd ~
+ls
+mkdir code
+cd .\code\
+mkdir webtest
+cd .\webtest\
+express myapp --view="pug"
+cd myapp
+npm install
+SET DEBUG=myapp:*
+npm start
+ls
+cat .\app.js
+ls
+ls .\public\
+ls .\routes\
+cat .\routes\index.js
+cat .\views\
+ls .\views\
+ls .\views\index.pug
+cat .\views\index.pug
+ls
+cat .\app.js
+ls .\bin\
+ls .\bin\www
+ls .\bin\www\
+ls
+cat .\package.json
+cat .\views\index.pug
+cat .\routes\index.js
+cat .\views\index.pug
+cat .\routes\index.js
+netsh interface portproxy add v4tov4 listenport=11434 listenaddress=0.0.0.0 connectport=11434 connectaddress=172.17.0.1
+netsh
+netsh interface portproxy list
+netsh interface portproxy --help
+netsh interface portproxy 
+netsh interface portproxy show
+netsh interface portproxy show all
+netsh interface portproxy delete
+netsh interface portproxy delete v4tov4
+netsh interface portproxy delete v4tov4 listenport
+netsh interface portproxy delete v4tov4 listenport=8080
+netsh interface portproxy delete v4tov4 listenport=8080 listenaddress=0.0.0.0
+netsh interface portproxy show all
+netsh interface portproxy delete v4tov4 listenport=11434 listenaddress=0.0.0.0
+netsh interface portproxy show all
+netsh interface portproxy add v4tov4 listenport=11434 listenaddress=0.0.0.0 connectport=11434 connectaddress=172.25.17.150
+netsh interface portproxy show all
+netsh interface portproxy add v4tov4 listenport=11434 listenaddress=127.0.0.1 connectport=11434 connectaddress=172.25.17.150
+netsh interface portproxy show all
+ipconfig
+netsh interface portproxy show all
+netsh interface portproxy delete all
+netsh interface portproxy delete listenaddress=0.0.0.0 listenport=11434
+netsh interface portproxy delete v4tov4 listenport=11434 listenaddress=0.0.0.0
+netsh interface portproxy delete v4tov4 listenport=11434 listenaddress=127.0.0.1
+netsh interface portproxy show all
+netsh interface portproxy add v4tov4 listenport=11434 listenaddress=193.168.6.30 connectport=11434 connectaddress=127.0.0.1
+netsh interface portproxy show all
+docker ps
+netsh interface portproxy delete v4tov4 listenport=11434 listenaddress=192.168.6.30
+netsh interface portproxy show all
+netsh interface portproxy delete v4tov4 listenport=11434 listenaddress=193.168.6.30
+netsh interface portproxy add v4tov4 listenport=11434 listenaddress=192.168.6.30 connectport=11434 connectaddress=127.0.0.1
+netsh interface portproxy show all
+netsh interface portproxy add v4tov4 listenport=11434 listenaddress=192.168.6.30 connectport=8080 connectaddress=127.0.0.1
+netsh interface portproxy show all
+netsh interface portproxy add v4tov4 listenport=8080 listenaddress=192.168.6.30 connectport=8080 connectaddress=127.0.0.1
+netsh interface portproxy show all
+netsh interface portproxy add v4tov4 listenport=11434 listenaddress=192.168.6.30 connectport=11434 connectaddress=127.0.0.1
+netsh interface portproxy show all
+Get-ExecutionPolicy -List
+netsh interface portproxy add v4tov4 listenport=20200 listenaddress=192.168.6.30 connectport=80 connectaddress=172.25.17.150
+netsh interface portproxy show all
+exit
+exit
+wsl
+netsh interface portproxy show all
+ipconfig
+netsh interface portproxy show all
+netsh interface portproxy add v4tov4 listenport=8080 listenaddress=192.168.6.30 connectport=8080 connectaddress=172.25.17.150
+netsh interface portproxy show all
+netsh interface portproxy delete v4tov4 listenport=11434 listenaddress=193.168.6.30
+netsh interface portproxy delete v4tov4 listenport=8080 listenaddress=193.168.6.30
+netsh interface portproxy delete v4tov4 listenport=20200 listenaddress=193.168.6.30
+netsh interface portproxy show all
+netsh interface portproxy delete all
+netsh interface portproxy show all
+netsh advfirewall firewall add rule name="cathack - Allowing LAN connections" dir=in action=allow protocol=TCP localport=8080
+netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=8080 connectaddress=localhost connectport=8080
+netsh interface portproxy show all
+netsh interface portproxy delete v4tov4 listenport=8080 listenaddress=127.0.0.1
+netsh interface portproxy delete v4tov4 listenport=8080 listenaddress=172.25.17.150
+netsh interface portproxy delete v4tov4 listenport=8080 listenaddress=192.168.6.30
+netsh interface portproxy show all
+netsh interface portproxy delete v4tov4 listenport=8080 listenaddress=0.0.0.0
+netsh interface portproxy show all
+netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=8080 connectaddress=localhost connectport=20200
+netsh interface portproxy show all
+netsh interface portproxy delete v4tov4 listenaddress=0.0.0.0 listenport=8080 connectaddress=localhost connectport=20200
+netsh interface portproxy delete v4tov4 listenaddress=0.0.0.0 listenport=8080 
+netsh interface portproxy show all
+netsh interface portproxy delete v4tov4 listenaddress=192.168.6.30 listenport=80
+netsh interface portproxy delete v4tov4 listenaddress=192.168.6.30 listenport=20200
+netsh interface portproxy delete v4tov4 listenaddress=192.168.6.30 listenport=11434
+netsh interface portproxy show all
+netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=8080 connectaddress=localhost connectport=8080
+netsh interface portproxy show all
+netsh interface portproxy add v4tov4 listenaddress=192.168.6.30 listenport=8080 connectaddress=172.25.17.150 connectport=8080
+netsh interface portproxy show all
+netsh interface portproxy delete v4tov4 listenaddress=0.0.0.0 listenport=8080 
+netsh interface portproxy show all
+netsh interface portproxy add v4tov4 listenaddress=192.168.6.30 listenport=20200 connectaddress=172.25.17.150 connectport=80
+netsh interface portproxy show all
+netsh interface portproxy add v4tov4 listenaddress=192.168.6.30 listenport=8090 connectaddress=172.25.17.150 connectport=8090
+netsh interface portproxy show all
+ssh
+ssh ghadmin@172.25.17.150
+dir /
+dir P:\
+dir \\192.168.6.6\pshare\catShows\
+robocopy '\\192.168.6.2\Media\pMediaTVShows\The Mandalorian - S01\' 'C:\Video\The Mandalorian - S01\' /s /e /z /i /log:C:\Video\checkMandalorianS01-log.txt
+robocopy '\\192.168.6.2\Media\pMediaTVShows\The Mandalorian - S01\' 'C:\Video\The Mandalorian - S01\' /s /e /z /i /log:C:\Video\checkMandalorianS01log.txt
+robocopy \\192.168.6.2\Media\pMediaTVShows\'The Mandalorian - S01\' C:\Video\'The Mandalorian - S01\' /s /e /z /i /log:C:\Video\checkMandalorianS01log.txt
+robocopy \\192.168.6.2\Media\pMediaTVShows\"The Mandalorian - S01"\ C:\Video\"The Mandalorian - S01\" /s /e /z /i /log:C:\Video\checkMandalorianS01log.txt
+robocopy \\192.168.6.2\Media\pMediaTVShows\ C:\Video\ /s /e /z /i /log:C:\Video\checkMandalorianS01log.txt
+ROBOCOPY /?
+robocopy \\192.168.6.2\Media\pMediaTVShows\ C:\Video\ /s /e /z /l /log:C:\Video\checkMandalorianS01log.txt
+cat C:\Video\checkMandalorianS01log.txt
+robocopy "\\192.168.6.2\Media\pMediaTVShows\The Mandalorian - S01\" "C:\Video\The Mandalorian - S01\" /s /e /z /i /log:C:\Video\checkMandalorianS01log.txt
+robocopy "\\192.168.6.2\Media\pMediaTVShows\The Mandalorian /- S01\" "C:\Video\The Mandalorian /- S01\" /s /e /z /i /log:C:\Video\checkMandalorianS01log.txt
+robocopy "\\192.168.6.2\Media\pMediaTVShows\The Mandalorian - S01\/" "C:\Video\The Mandalorian - S01\/" /s /e /z /i /log:C:\Video\checkMandalorianS01log.txt
+robocopy "\\192.168.6.2\Media\pMediaTVShows\The Mandalorian - S01\/" "C:\Video\The Mandalorian - S01\/" /s /e /z /l /log:C:\Video\checkMandalorianS01log.txt
+cat C:\Video\checkMandalorianS01log.txt
+robocopy "\\192.168.6.2\Media\pMediaTVShows\The Mandalorian - S02\/" "C:\Video\The Mandalorian - S02\/" /s /e /z /l /log:C:\Video\checkMandalorianS02log.txt
+cat C:\Video\checkMandalorianS02log.txt
+cat C:\Video\checkMandalorianS01log.txt
+robocopy "\\192.168.6.6\pshare\Family Ties (1982)\/" "C:\Video\Family Ties (1982)\/" /s /e /z /l /log:C:\Video\checkFamilyTieslog.txt
+cat C:\Video\checkFamilyTieslog.txt
+robocopy "\\192.168.6.6\pshare\catShows\Family Ties (1982)\/" "C:\Video\Family Ties (1982)\/" /s /e /z /l /log:C:\Video\checkFamilyTieslog.txt
+cat C:\Video\checkFamilyTieslog.txt
+netsh interface portproxy show all
+docker ps
+docker images
+docker buildx ls
+docker
+netsh interface portproxy show all
+docker ps
+exit
+docker ps
+docker container ls --all
+docker ps
+wsl --list
+netsh interface portproxy show all
+docker ps
+bcdedit /set hypervisorlaunchtype off
+netsh interface portproxy show all
+ipconfig
+netsh interface portproxy add v4tov4 listenport=11434 listenaddress=0.0.0.0 connectport=11434 connectaddress=(wsl hostname -I)
+netsh interface portproxy show all
+netsh interface portproxy delete v4tov4 listenport=11434 listenaddress=0.0.0.0 connectport=11434 connectaddress=(wsl hostname -I)
+netsh interface portproxy delete v4tov4 listenport=11434 listenaddress=0.0.0.0
+netsh interface portproxy show all
+netsh interface portproxy add v4tov4 listenport=11434 listenaddress=192.168.6.30 connectport=11434 connectaddress=172.25.17.150
+netsh interface portproxy show all
+netsh interface portproxy add v4tov4 listenport=11434 listenaddress=192.168.6.30 connectport=11434 connectaddress=127.0.0.1
+netsh interface portproxy show all
+netsh interface portproxy add v4tov4 listenport=11434 listenaddress=192.168.6.30 connectport=11434 connectaddress=172.25.17.150
+netsh interface portproxy show all
+exit
+wsl
+wsl.exe --install --no-distribution
+wsl
+wsl --list
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+wsl --set-default-version 2
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+bcedit /enum | findstr -i hypervisorlaunchtype
+bcdedit /enum | findstr -i hypervisorlaunchtype
+bcdedit /set hypervisorlaunchtype Auto
+bcdedit /enum | findstr -i hypervisorlaunchtype
+netsh interface portproxy show all
+netsh interface portproxy add v4tov4 listenport=8080 listenaddress=192.168.6.30 connectport=8080 connectaddress=127.0.0.1
+netsh interface portproxy show all
+ipconfig
+netsh interface portproxy add v4tov4 listenport=8080 listenaddress=192.168.6.30 connectport=8080 connectaddress=172.25.16.1
+netsh interface portproxy show all
+netsh interface portproxy add v4tov4 listenport=8080 listenaddress=192.168.6.30 connectport=8080 connectaddress=172.25.17.150
+netsh interface portproxy show all
+ipconfig
+netsh interface portproxy show all
+netsh interface ipv6 install
+net start iphlpsvc
+netsh int ip show excludedportrange protocal=tcp
+netsh int ip show excludedportrange protocol=tcp
+netstat -an | findstr 8080
+netsh interface portproxy show all
+netstat -aon | findstr 8080
+tasklist /FI "PID eq 9420"
+Get-Process -Id (Get-NetTCPConnection -LocalPort 8080).OwningProcess
+netsh interface portproxy add v4tov4 listenport=8080 listenaddress=0.0.0.0 connectport=8080 connectaddress=172.25.17.150
+netsh interface portproxy show all
+netsh interface portproxy delete v4tov4 listenport=8080 listenaddress=192.168.6.30
+netsh interface portproxy show all
+netsh interface portproxy delete v4tov4 listenport20200 listenaddress=192.168.6.30
+netsh interface portproxy delete v4tov4 listenport=20200 listenaddress=192.168.6.30
+netsh interface portproxy show all
+netsh interface portproxy delete v4tov4 listenport=8090 listenaddress=192.168.6.30
+netsh interface portproxy show all
+netsh interface portproxy delete v4tov4 listenport=11434 listenaddress=192.168.6.30
+netsh interface portproxy show all
+history
+history --help
+history -help
+notepad (Get-PSReadlineOption).HistorySavePath
