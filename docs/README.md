@@ -4,6 +4,7 @@
 - [nginx-truenas.md](./nginx-truenas)
 - [nodejs-test.md](./nodejs-test)
 - [open-webui-install.md](./open-webui-install)
+- [open-webui-ops.md](./open-webui-ops)
 
 ## wip
 - https://github.com/run-llama/llama_parse
