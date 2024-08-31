@@ -12,6 +12,14 @@ b4c93d10c5b4   portainer/portainer-ce:latest        "/portainer"      3 days ago
 ```
 - verify [https://chat.bradnordyke.com/](https://chat.bradnordyke.com/) works
 
+### backup
+- ollama models
+- open-webui db and user data
+
+### update
+- ollama
+- open-webui
+
 ## debug
 Had open webui working through docker-wsl-cybertruck-cloudflare.  Was attempting to run a vm with VirtualBox when I began to have issues with external access.
 
@@ -24,26 +32,29 @@ debug open webui
 - Configure Ollama Host: Set the OLLAMA_HOST environment variable to 0.0.0.0. This tells Ollama to listen on all available network interfaces, enabling connections from external sources, including the Open WebUI.
 - sudo ufw allow port/protocol sudo ufw deny port/protocol Replace port with the port number and protocol with TCP or UDP.
 - 
-## portainer
-- https://localhost:9443/#!/auth
-- tbd
-## website
+## portainer website
+- Open webui
+- [http://localhost:9443/](http://localhost:9443/) works on Cybertruck
+- [http://172.25.17.150:9443/](http://172.25.17.150:9443/) works on Cybertruck
+- [http://192.168.6.30:9443/](http://192.168.6.30:9443/) works on cf subnet
+- []() works on Cybertruck
+
+## open-webui website
 ---
 - Open webui
 - [http://localhost:8080/](http://localhost:8080/) works on Cybertruck
 - [http://172.25.17.150:8080/](http://172.25.17.150:8080/) works on Cybertruck
-- [http://192.168.6.30:8080/](http://192.168.6.30:8080/) 500: Internal Error on Cybertruck
-- [https://chat.bradnordyke.com/](https://chat.bradnordyke.com/) fails on Cybertruck
+- [http://192.168.6.30:8080/](http://192.168.6.30:8080/) works on cf subnet
+- [https://chat.bradnordyke.com/](https://chat.bradnordyke.com/) works anywhere
 - []() works on Cybertruck
 ---
 - ollama
 - [http://localhost:11434/](http://localhost::11434/) works on Cybertruck
 - [http://127.0.0.1:11434/](http://127.0.0.1:11434/) works on Cybertruck
-- [http://172.25.17.150::11434/](http://172.25.17.150::11434/) Does NOT work on Cybertruck
-- [http://192.168.6.30:11434/](http://192.168.6.30:11434/) works on Cybertruck
+- [http://172.25.17.150:11434/](http://172.25.17.150::11434/) works on Cybertruck
+- [http://192.168.6.30:11434/](http://192.168.6.30:11434/) works on cf subnet
 
-
-## logs
+## debug logs
 - [cfCyberTruck_PS_ConsoleHost_history.txt](./cfCyberTruck_PS_ConsoleHost_history.txt)
 - [cfCyberTruck_wsl_ConsoleHost_history.txt](./cfCyberTruck_wsl_ConsoleHost_history.txt)
 - [PowerShell History commands](https://stackoverflow.com/questions/44104043/how-can-i-see-the-command-history-across-all-powershell-sessions-in-windows-serv)
