@@ -1,5 +1,17 @@
 [edit]()
 
+## restart
+- CyberTruck at 192.168.6.30 running
+- login as ghadmin and start cmd as admin type wsl to start wsl
+- verify opne-webui is running
+```bash
+ghadmin@Cybertruck:/mnt/c/Users/ghadmin$ docker ps
+CONTAINER ID   IMAGE                                COMMAND           CREATED       STATUS                             PORTS                                                                                            NAMES
+b4c93d10c5b4   portainer/portainer-ce:latest        "/portainer"      3 days ago    Up 11 seconds                      0.0.0.0:8000->8000/tcp, :::8000->8000/tcp, 0.0.0.0:9443->9443/tcp, :::9443->9443/tcp, 9000/tcp   portainer
+0a3f081ea4f6   ghcr.io/open-webui/open-webui:main   "bash start.sh"   3 weeks ago   Up 11 seconds (health: starting)                                                                                                    open-webui
+```
+- verify [https://chat.bradnordyke.com/](https://chat.bradnordyke.com/) works
+
 ## debug
 Had open webui working through docker-wsl-cybertruck-cloudflare.  Was attempting to run a vm with VirtualBox when I began to have issues with external access.
 
