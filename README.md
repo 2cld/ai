@@ -19,10 +19,10 @@
 
 ### index
 - [docs](./docs/)
-- [docs/nginx-truenas](./docs/nginx-truenas/)
-- [docs/nodejs-test](./docs/nodejs-test/)
-- [docs/open-webui-install](./docs/open-webui-install/)
-- [docs/open-webui-ops](./docs/open-webui-ops/)
+- [docs/nginx-truenas](./docs/nginx-truenas)
+- [docs/nodejs-test](./docs/nodejs-test)
+- [docs/open-webui-install](./docs/open-webui-install)
+- [docs/open-webui-ops](./docs/open-webui-ops)
 
 ---
 
