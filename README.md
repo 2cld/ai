@@ -11,8 +11,8 @@
 
 ---
 
-| doc | link |
-|-----|------|
+| doc | local link | external |
+|-----|------|------|
 | WebUI	/api/v1/docs | [http://192.168.6.30:8080/api/v1/docs](http://192.168.6.30:8080/api/v1/docs) | [https://chat.bradnordyke.com/api/v1/docs](https://chat.bradnordyke.com/api/v1/docs) |
 | Ollama /ollama/docs | [http://192.168.6.30:8080/ollama/docs](http://192.168.6.30:8080/ollama/docs) | [https://chat.bradnordyke.com/ollama/docs](https://chat.bradnordyke.com/ollama/docs) |
 | OpenAI /openai/docs | [http://192.168.6.30:8080/openai/docs](http://192.168.6.30:8080/openai/docs) | [https://chat.bradnordyke.com/openai/docs](https://chat.bradnordyke.com/openai/docs) |
