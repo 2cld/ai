@@ -1,5 +1,11 @@
+[edit](https://github.com/2cld/ai/edit/main/README.md)
 # ai
 2cld ai notes
+
+## working external through cloudflare [https://netstack.org/docs/wan/cloudflare/](https://netstack.org/docs/wan/cloudflare/)
+- [https://chat.bradnordyke.com](https://chat.bradnordyke.com) - ollama open-webui
+- [https://home.bradnordyke.com](https://home.bradnordyke.com) - homer
+- [https://casa.bradnordyke.com](https://casa.bradnordyke.com) - casaos
 
 - open-webui localonly [http://192.168.6.30:8080/](http://192.168.6.30:8080/)
 
