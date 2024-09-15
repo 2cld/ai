@@ -31,4 +31,9 @@
 - [docs/open-webui-ops](./docs/open-webui-ops)
 
 ---
-
+ ### cloudflare git clone cli setup
+ - https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/deployment/manual-deployment/
+- https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/set-up-warp/
+- <span style="color: var(--1,inherit);">warp-cli</span> <span style="color: var(--1,inherit);">teams-enroll</span> <span style="color: var(--1,inherit);"><your-team-name></span>
+- <span style="color: var(--1,inherit);"><span style="color: var(--1,inherit);">warp-cli</span> <span style="color: var(--1,inherit);">account</span></span>
+- <span style="color: var(--1,inherit);"><span style="color: var(--1,inherit);">warp-cli connect</span></span>
