@@ -2,6 +2,8 @@
 # ai
 2cld ai notes
 
+- test commit from cat@rpi
+
 ## working external through cloudflare [https://netstack.org/docs/wan/cloudflare/](https://netstack.org/docs/wan/cloudflare/)
 - [https://chat.bradnordyke.com](https://chat.bradnordyke.com) - ollama open-webui
 - [https://home.bradnordyke.com](https://home.bradnordyke.com) - homer
