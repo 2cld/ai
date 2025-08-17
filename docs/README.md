@@ -5,6 +5,7 @@
 - [nodejs-test.md](./nodejs-test)
 - [open-webui-install.md](./open-webui-install)
 - [open-webui-ops.md](./open-webui-ops)
+- [research-ai.md](./research-ai)
 
 ## wip
 - https://github.com/run-llama/llama_parse
@@ -210,3 +211,4 @@ PS C:\WINDOWS\system32>
 - ghadmin@Cybertruck:/mnt/c/Users/ghadmin/casaos$ sudo ufw allow 8080
 - PS C:\WINDOWS\system32> netsh interface portproxy add v4tov4 listenport=20200 listenaddress=192.168.6.30 connectport=80 connectaddress=172.25.17.150
 - PS C:\WINDOWS\system32> netsh interface portproxy show all
+
