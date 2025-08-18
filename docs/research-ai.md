@@ -17,6 +17,7 @@
 - yt [How to Build & Sell Web Apps With AI Without Coding](https://www.youtube.com/watch?v=SeybVD0NMQI)
 - yt [Archon Beta Launch](https://www.youtube.com/watch?v=iz9V9dVtRto)
 - yt [Introducing Archon](https://www.youtube.com/watch?v=8pRc_s2VQIo)
+- yt [n8n Google Business Workflows](https://www.youtube.com/@ClarenceAutomations/videos)
 
 ## Offline LLM
 - https://www.youtube.com/watch?v=eiMSapoeyaU
