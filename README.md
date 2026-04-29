@@ -3,6 +3,10 @@
 2cld ai notes
 
 - test commit from cat@rpi
+- https://aistudio.google.com/prompts/new_chat
+- https://notebooklm.google.com/
+- https://app.kiro.dev/account/usage
+- https://chatgpt.com/
 
 ## working external through cloudflare [https://netstack.org/docs/wan/cloudflare/](https://netstack.org/docs/wan/cloudflare/)
 - [https://chat.bradnordyke.com](https://chat.bradnordyke.com) - ollama open-webui
