@@ -208,9 +208,11 @@ If you just want a quick command to send a prompt:
 3.  Run `source ~/.zshrc`.
 4.  Use it: `zai "What is the weather?"`
 
--->
-
 ### Summary Recommendation
 *   **If you meant xAI (Grok):** Use **Method 1** (the `llm` tool). It supports history, templates, and logging out of the box.
 *   **If you want to build a tool:** Use **Python** with the OpenAI SDK set to a custom `base_url`.
 *   
+
+-->
+
+The End
