@@ -2,6 +2,17 @@
 # ai
 2cld ai notes
 
+- https://kiro.dev/
+- https://chatgpt.com/
+- https://claude.ai/
+- https://www.perplexity.ai/
+- https://grok.com/
+- https://portal.thehive.ai/
+- https://www.deepseek.com/en/
+- https://muse.ai/
+- https://copilot.microsoft.com/
+- tbd
+
 ## google
 
 - https://www.google.com/search?udm=50&aep=11
