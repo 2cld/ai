@@ -2,6 +2,18 @@
 # ai
 2cld ai notes
 
+## google
+
+- https://www.google.com/search?udm=50&aep=11
+- https://notebook.google.com/
+- https://aistudio.google.com/
+- https://opal.google/landing/
+- https://jules.google.com/session
+
+![google-aiecosystem](./GoogleAIEcosystem.png)
+
+<!--  Old crap
+
 - test commit from cat@rpi
 - https://aistudio.google.com/prompts/new_chat
 - https://notebooklm.google.com/
@@ -184,6 +196,8 @@ If you just want a quick command to send a prompt:
     ```
 3.  Run `source ~/.zshrc`.
 4.  Use it: `zai "What is the weather?"`
+
+-->
 
 ### Summary Recommendation
 *   **If you meant xAI (Grok):** Use **Method 1** (the `llm` tool). It supports history, templates, and logging out of the box.
