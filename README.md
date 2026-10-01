@@ -2,6 +2,13 @@
 # ai
 2cld ai notes
 
+## new
+- [IM-Leo Interview youtube](https://www.youtube.com/watch?v=CEIx6T2Yc-s) - mike gannotti 
+- https://www.smfclearinghouse.com/
+- https://www.smfworks.com/
+- https://smfwisdomforge.com/
+
+## dev
 - https://kiro.dev/
 - https://chatgpt.com/
 - https://claude.ai/
@@ -14,7 +21,6 @@
 - tbd
 
 ## google
-
 - https://www.google.com/search?udm=50&aep=11
 - https://notebook.google.com/
 - https://aistudio.google.com/
