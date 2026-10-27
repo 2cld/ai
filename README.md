@@ -7,6 +7,7 @@
 - https://www.smfclearinghouse.com/
 - https://www.smfworks.com/
 - https://smfwisdomforge.com/
+- Seeed Studio XIAO ESP32-S3 Sense [part link](https://www.electromaker.io/shop/product/seeed-studio-xiao-esp32s3-sense-pre-soldered) [youtube](https://www.youtube.com/watch?v=4tEngx4ffeQ)
 
 ## dev
 - https://kiro.dev/
