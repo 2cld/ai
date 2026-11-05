@@ -2,6 +2,8 @@
 # ai
 2cld ai notes
 
+- [tmux quick reference](./docs/tmux)
+
 ## new
 - [IM-Leo Interview youtube](https://www.youtube.com/watch?v=CEIx6T2Yc-s) - mike gannotti 
 - https://www.smfclearinghouse.com/
