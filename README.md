@@ -5,7 +5,8 @@
 - [tmux quick reference](./docs/tmux)
 - copilot crap use of GPT 6.5
 - https://learn.microsoft.com/en-us/answers/questions/5930106/refund-on-copilot
-- tbd
+- https://github.com/settings/copilot/features
+- https://github.com/settings/billing/payment_information
 
 ## new
 - [IM-Leo Interview youtube](https://www.youtube.com/watch?v=CEIx6T2Yc-s) - mike gannotti 
