@@ -9,6 +9,7 @@
 - https://github.com/settings/billing/payment_information
 
 ## new
+- Adobe ai replacement https://getartcraft.com
 - [IM-Leo Interview youtube](https://www.youtube.com/watch?v=CEIx6T2Yc-s) - mike gannotti 
 - https://www.smfclearinghouse.com/
 - https://www.smfworks.com/
