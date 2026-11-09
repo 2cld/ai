@@ -19,6 +19,10 @@
   - [face youtube](https://youtu.be/_LiiJxeuhtE)
   - [overall review youtube](https://youtu.be/qNzlytUdB_Q)
 
+## nvidia
+- Share it on X or Instagram tag @NVIDIAGeForce
+- Nvidia cloud gaming service https://www.nvidia.com/en-us/geforce-now/
+
 ## dev
 - https://kiro.dev/
 - https://chatgpt.com/
