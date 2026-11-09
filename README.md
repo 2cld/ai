@@ -3,10 +3,15 @@
 2cld ai notes
 
 - [tmux quick reference](./docs/tmux)
+
+- purchased copilot Pro+ on Nov 3, 2026 ho-wip - Priceline $31.03
 - copilot crap use of GPT 6.5
 - https://learn.microsoft.com/en-us/answers/questions/5930106/refund-on-copilot
 - https://github.com/settings/copilot/features
 - https://github.com/settings/billing/payment_information
+- canceled copilot Pro+ on Nov 9, 2026 ho-wip https://github.com/settings/billing/licensing
+- According to [refund](https://learn.microsoft.com/en-us/answers/questions/5930106/refund-on-copilot) I should get a pro-rated refund if canceled within 14 days. That was 6 days!
+- Will check to see if they refunded
 
 ## new
 - Adobe ai replacement https://getartcraft.com
