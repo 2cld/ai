@@ -262,8 +262,9 @@ If you just want a quick command to send a prompt:
 The End
 
 ## Laptop
-Best Used Back to School Laptops
-(eBay Prices as of July 2026) 
+- https://youtu.be/461lFvnZEig
+
+Best Used Back to School Laptops (eBay Prices as of July 2026) 
  - $85-$170 - Dell Latitude 7490 (i5-8350U/i7-8650U, 8-16GB)
  - $130-$200 - ThinkPad T480 (i5-8250U/8350U, 8-16GB)
  - $140-$280 - Dell Latitude 7420 (i7-1185G7, 16GB)
@@ -273,8 +274,7 @@ Best Used Back to School Laptops
  - $300-$350 - MacBook Air M1 (8GB/256GB)
  - $300-$440 - ThinkPad X1 Carbon Gen 9 (i7-1185G7, 16GB/512GB)
 
-Best Used Workstations / Gaming Laptop Alternative
-(eBay Prices as of July 2026)
+Best Used Workstations / Gaming Laptop Alternative (eBay Prices as of July 2026)
  - $340-$450 - Dell Precision 7550 (Quadro RTX 3000 6GB, i7-10850H/10875H, 32GB)
  - $500-$750 - Dell Precision 7560 (RTX A4000 8GB, i7-11850H/Xeon, 32-64GB)
  - $525-$700 - ThinkPad P1 Gen 4 (RTX 3070 8GB, i7-11850H, 16-32GB)
