@@ -283,6 +283,9 @@ Best Used Workstations / Gaming Laptop Alternative
  - $600-$745 - HP ZBook Fury 15 G8 (RTX A3000 6GB, i7-11850H, 32-64GB)
  - $675-$795 - HP ZBook Fury 15 G8 (RTX A4000 8GB, i7-11850H/i9-11950H, 32GB)
  - $850-$950 - HP ZBook Fury 15 G8 (RTX A5000 16GB, i7/Xeon, 64GB)
-   
-$900-$1200 - ThinkPad P15 Gen 2 (RTX A5000 16GB, 16GB, 1TB) 
+ - $900-$1200 - ThinkPad P15 Gen 2 (RTX A5000 16GB, 16GB, 1TB) 
 
+- https://www.jawa.gg/shop/search?name=Thinkpad&sortBy=relevance
+- https://epcusa.com/shop/online/
+- https://www.ebay.com/sch/i.html?_nkw=ThinkPad+X1+Carbon+Gen+9&_sacat=0&_from=R40&_trksid=p4624852.m570.l1313
+- https://www.ebay.com/sch/i.html?_nkw=ThinkPad+P15+Gen+2
